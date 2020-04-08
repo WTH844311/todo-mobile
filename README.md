@@ -1,30 +1,38 @@
-# DEBUG
-## RUN
+# UI 界面
+1. 清单列表
+<p><a href="https://github.com/WTH844311/todo-mobile"><img width="100%" src="https://github.com/WTH844311/todo-mobile/raw/master/doc/images/lists.png" alt="todo-mobile UI"></a></p>
+2. 任务列表
+<p><a href="https://github.com/WTH844311/todo-mobile"><img width="100%" src="https://github.com/WTH844311/todo-mobile/raw/master/doc/images/tasks.png" alt="todo-mobile UI"></a></p>
+3. 任务详情
+<p><a href="https://github.com/WTH844311/todo-mobile"><img width="100%" src="https://github.com/WTH844311/todo-mobile/raw/master/doc/images/taskDetail.png" alt="todo-mobile UI"></a></p>
+
+
+# 调试
+1. 确保电脑与设备建立连接或模拟器处于可用状态
 ```
     $ react-native run-android
 ```
 
-
-# RELEASE
-## BUNDLE
+# 发布（安卓）
+## 打包
 ```
     $ react-native bundle --platform android --dev false --reset-cache --entry-file index.js --bundle-output android/app/build/generated/assets/react/release/index.android.bundle --assets-dest android/app/build/generated/res/react/release
 
 ```
 
-## BUILD APK
+## 生成 APK
 ```
     $ cd android
     $ ./gradlew assembleRelease
 ```
 
-## INSTALL APK TO DEVICE
+## 安装应用到设备或模拟器
 ```
     $ cd android
     $ ./gradlew installRelease
 ```
 
-## CLEAN FILE BEFORE REBUNDLE
+## 重新打包前清楚缓存
 ```
     $ cd android
     $ ./gradlew clean

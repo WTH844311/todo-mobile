@@ -11,11 +11,11 @@
 
 ## UI 界面
 
-<div style="display: flex; flex-directory: row">
-<p><a href="https://github.com/WTH844311/todo-mobile"><img width="30%" src="https://github.com/WTH844311/todo-mobile/raw/master/doc/images/lists.png" alt="todo-mobile UI"></a></p>
-<p><a href="https://github.com/WTH844311/todo-mobile"><img width="30%" src="https://github.com/WTH844311/todo-mobile/raw/master/doc/images/tasks.png" alt="todo-mobile UI"></a></p>
-<p><a href="https://github.com/WTH844311/todo-mobile"><img width="30%" src="https://github.com/WTH844311/todo-mobile/raw/master/doc/images/taskDetail.png" alt="todo-mobile UI"></a></p>
-<div>
+<p>
+    <img width="30%" src="https://github.com/WTH844311/todo-mobile/raw/master/doc/images/lists.png" alt="todo-mobile UI">
+    <img width="30%" src="https://github.com/WTH844311/todo-mobile/raw/master/doc/images/tasks.png" alt="todo-mobile UI">
+    <img width="30%" src="https://github.com/WTH844311/todo-mobile/raw/master/doc/images/taskDetail.png" alt="todo-mobile UI">
+</p>
 
 
 ## 调试
@@ -46,7 +46,7 @@
     $ ./gradlew installRelease
 ```
 
-### 重新打包前清楚缓存
+### 重新打包前清除缓存
 
 ```
     $ cd android
